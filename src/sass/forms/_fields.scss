@@ -1,0 +1,37 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: $c_field-text;
+	border: 2px solid $c_field-border;
+	background: $c_field;
+	border-radius: $radius;
+	width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+	color: $c_field-text-hover;
+	border: 2px solid $c_field-border-hover;
+	transition: 0.6s ease;
+	background: $c_field-hover;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	padding: 5px;
+}
+
+textarea {
+	padding-left: 3px;
+	width: 100%;
+}

@@ -1,0 +1,20 @@
+
+.site-title {
+  a {
+    color: $c_headers;
+    text-decoration: none;
+  }
+}
+
+.main-navigation {
+
+  a {
+    color: $c_headers;
+    font-family: $font__alt;
+
+    &:hover {
+      color: $color3;
+    }
+  }
+
+}

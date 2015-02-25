@@ -1,0 +1,72 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 2px solid $c_button-border;
+	color: $c_button-text;
+	background: $c_button;
+
+	border-radius: $radius;
+	line-height: 1;
+	padding: 15px 25px;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	color: $c_button-text-hover;
+	background: $c_button-hover;
+	border-color: $c_button-border-hover;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	border-color: $c_button-border-hover;
+}
+
+.button,
+.button:visited,
+.button-alt,
+.button-alt:visited {
+	border-radius: $radius;
+	line-height: 1;
+	padding: 15px 25px;
+	text-decoration: none;
+	transition: 0.6s ease;
+	display: inline-block;
+}
+
+.button,
+.button:visited {
+	border: 2px solid $c_button-border;
+	color: $c_button-text;
+
+}
+.button:hover,
+.button:active {
+	background: $c_button-hover;
+	color: $c_button-text-hover;
+	border-color: $c_button-border-hover;
+}
+
+.button-alt,
+.button-alt:visited {
+	border: 2px solid $c_button-alt-border;
+	color: $c_button-alt-text;
+}
+
+.button-alt:hover,
+.button-alt:active {
+	background: $c_button-alt-hover;
+	color: $c_button-alt-text-hover;
+	border-color: $c_button-alt-border-hover;
+}

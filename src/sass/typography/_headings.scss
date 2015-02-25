@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	color: $c_headers;
+	font-family: $font__alt;
+	line-height: $font__line-height-pre;
+	font-weight: $font__header-weight;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+h1 { @include font-size(3.0); }
+h2 { @include font-size(2.6); }
+h3 { @include font-size(2.2); }
+h4 { @include font-size(1.8); }
+h5 { @include font-size(1.4); }
+h6 { @include font-size(1.2); }

@@ -1,0 +1,20 @@
+a {
+	color: $c_link;
+	transition: 0.4s ease;
+
+	&:visited {
+		color: $c_link;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $c_link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
