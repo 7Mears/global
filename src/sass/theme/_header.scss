@@ -1,12 +1,5 @@
-
-.site-title {
-  a {
-    color: $c_headers;
-    text-decoration: none;
-  }
-}
-
 .main-navigation {
+  margin-top: 2.2em;
 
   a {
     color: $c_headers;
@@ -16,5 +9,8 @@
       color: $color3;
     }
   }
+}
 
+.site-branding {
+  float: left;
 }

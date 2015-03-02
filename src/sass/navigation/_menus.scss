@@ -1,10 +1,5 @@
 .main-navigation {
-	&:first-child {
-		float: left;
-	}
-	&:nth-child(1) {
 		float: right;
-	}
 
 	ul {
 		list-style: none;

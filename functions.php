@@ -176,3 +176,15 @@ remove_action( 'wp_head', 'rsd_link' ) ;
 // Remove RSS feeds
 remove_action( 'wp_head', 'feed_links', 2 );
 remove_action( 'wp_head', 'feed_links_extra', 3 );
+
+
+
+// Use googles jQuery
+add_action('wp_enqueue_scripts', 'no_more_jquery');
+function no_more_jquery(){
+		wp_deregister_script('jquery');
+		wp_register_script('jquery', "http" .
+		($_SERVER['SERVER_PORT'] == 443 ? "s" : "") .
+		"://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js", false, null);
+		wp_enqueue_script('jquery');
+}

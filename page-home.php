@@ -13,12 +13,28 @@
 get_header(); ?>
 
 <section class="hero">
-  <div class="wrapper">
-    <h1>Header 1</h1>
-    <p>Completely formulate high-quality catalysts for change vis-a-vis stand-alone manufactured products. Distinctively grow functional expertise with premium niche markets. Appropriately facilitate low-risk high-yield innovation with extensible strategic theme areas. Credibly coordinate flexible customer service after exceptional alignments. Distinctively optimize seamless experiences for technically sound value.
 
-Globally customize resource-leveling ideas and resource-leveling manufactured products. Enthusiastically matrix intuitive quality vectors for high standards in metrics. Authoritatively supply.</p>
-  <a href="#0"><div class="button">Button</div></a>
+    <?php layerslider(1) ?>
+</section>
+
+<section class="home-top">
+  <div class="wrapper">
+    <h4>From cutting-edge healthcare facilities to complex transit tunnels, we are proud to deliver projects that shape our communities and strengthen our nation's infrastructure.</h>
+  </div>
+</section>
+
+<section class="home-middle">
+  <div class="wrapper">
+    <div class="card">1</div>
+    <div class="card">2</div>
+    <div class="card">3</div>
+    <div class="card">4</div>
+  </div>
+</section>
+
+<section class="home-bottom">
+  <div class="wrapper">
+    <h4>News</h>
   </div>
 </section>
 
