@@ -21,33 +21,60 @@ get_header(); ?>
   </div>
 </section>
 
-<section class="home-middle">
-  <div class="wrapper">
+<section class="home-middle clearfix">
+  <div id="grid" class="grid clearfix">
+    <div class="wrapper">
 
-    <div class="card">
-      <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
-      <h3>Commercial</h3>
-    </div>
+      <a href="#" class="b">
+        <div class="figure">
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house2.jpg" />
 
-    <div class="card">
-      <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
-      <h3>Residential</h3>
-    </div>
+          <div class="figcaption">
+            <h2>Condos</h2>
+            <p>Soko radicchio bunya nuts gram dulse.</p>
+          </div>
+          <div class="figbutton">View</div>
+        </div>
+      </a>
 
-    <div class="card">
-      <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
-      <h3>Restoration</h3>
-    </div>
+      <a href="#">
+        <div class="figure">
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house2.jpg" />
+          <div class="figcaption">
+            <h2>Renos</h2>
+            <p>Two greens tigernut soybean radish artichoke.</p>
+          </div>
+          <div class="figbutton">View</div>
+        </div>
+      </a>
 
-    <div class="card">
-      <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
-      <h3>Commercial</h3>
-    </div>
+      <a href="#">
+        <div class="figure">
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house2.jpg" />
+          <div class="figcaption">
+            <h2>New homes</h2>
+            <p>Beetroot water spinach okra water chestnut.</p>
+          </div>
+          <div class="figbutton">View</div>
+        </div>
+      </a>
 
-    <a class="button" href="#0">Find out more</a>
+      <a href="#">
+        <div class="figure">
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house2.jpg" />
+          <div class="figcaption">
+            <h2>DIY</h2>
+            <p>Water spinach arugula pea tatsoi.</p>
+          </div>
+          <div class="figbutton">View</div>
+        </div>
+      </a>
 
-  </div>
+
+    </div><!-- #wrapper -->
+  </div><!-- #grid -->
 </section>
+
 
 <section class="home-bottom">
   <div class="wrapper">
