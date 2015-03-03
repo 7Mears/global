@@ -1,0 +1,25 @@
+
+.home-top {
+  text-align: center;
+  @include font-size(1.4);
+}
+
+.card {
+  width: 20%;
+  float: left;
+  text-align: center;
+  margin: 2.25%;
+
+  h3 {
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+    background-color: rgba(255,255,255,0.4);
+  }
+
+  img {
+    border-radius: 50%;
+    border: 5px solid rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+}

@@ -1,37 +1,37 @@
-$color1: #ECF0F1;
+$color1: #FFF;
 $color1-d: darken($color1, 10%);
 $color1-l: lighten($color1, 10%);
 
-$color2: #2C3E50;
+$color2: #212121;
 $color2-d: darken($color2, 10%);
 $color2-l: lighten($color2, 10%);
 
-$color3: #E74C3C;
+$color3: #B71C1C;
 $color3-d: darken($color3, 10%);
 $color3-l: lighten($color3, 10%);
 
-$color4: #FFF056;
+$color4: #FFEB3B;
 $color4-d: darken($color4, 10%);
 $color4-l: lighten($color4, 10%);
 
-$color5: #3498DB;
+$color5: #607D8B;
 $color5-d: darken($color5, 10%);
 $color5-l: lighten($color5, 10%);
 
-$color6: #2980B9;
+$color6: #2196F3;
 $color6-d: darken($color6, 10%);
 $color6-l: lighten($color6, 10%);
 
 
 
-$c_body-color: $color2-l;
+$c_body-color: lighten($color2, 20%);
 $c_body-background: $color1;
 $c_link: $color6;
 $c_link-hover: $color3-l;
-$c_headers: $color2;
-$c_hr: $color6;
+$c_headers: $color2-l;
+$c_hr: $color2;
 
-$c_field: $color1;
+$c_field: $color2-l;
 $c_field-text: $color4;
 $c_field-border: $color2;
 
@@ -39,13 +39,13 @@ $c_field-hover: $color1;
 $c_field-text-hover: $color6;
 $c_field-border-hover: $color3;
 
-$c_header: $color1;
+$c_header: $color2;
 $c_home-hero-bg: darken($c_header, 2%);
 $c_home-hero-bg-alt: darken($c_header, 4%);
 
 /* Buttons */
 $c_button: $color3;
-$c_button-text: $color2;
+$c_button-text: $color1;
 $c_button-border: $color3-d;
 
 $c_button-hover: $color3-d;
@@ -71,7 +71,7 @@ $color-1: #243040; // Ebony Clay
 $color-2: #9cb3a8; // Pewter
 $color-3: #ffffff; // White
 
-// fonts 
+// fonts
 
 $primary-font: 'Open Sans', sans-serif;
 $secondary-font: 'Merriweather', serif;

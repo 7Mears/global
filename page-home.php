@@ -12,29 +12,44 @@
 
 get_header(); ?>
 
-<section class="hero">
 
-    <?php layerslider(1) ?>
-</section>
+<?php layerslider(1) ?>
 
 <section class="home-top">
   <div class="wrapper">
-    <h4>From cutting-edge healthcare facilities to complex transit tunnels, we are proud to deliver projects that shape our communities and strengthen our nation's infrastructure.</h>
+    <p>From cutting-edge healthcare facilities to complex transit tunnels, we are proud to deliver projects that shape our communities and strengthen our nation's infrastructure.</p>
   </div>
 </section>
 
 <section class="home-middle">
   <div class="wrapper">
-    <div class="card">1</div>
-    <div class="card">2</div>
-    <div class="card">3</div>
-    <div class="card">4</div>
+
+  <div class="card">
+    <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
+    <h3>Commercial</h3>
+  </div>
+
+  <div class="card">
+    <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
+    <h3>Residential</h3>
+  </div>
+
+  <div class="card">
+    <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
+    <h3>Restoration</h3>
+  </div>
+
+  <div class="card">
+    <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
+    <h3>Commercial</h3>
+  </div>
+
   </div>
 </section>
 
 <section class="home-bottom">
   <div class="wrapper">
-    <h4>News</h>
+    <h4>News</h4>
   </div>
 </section>
 

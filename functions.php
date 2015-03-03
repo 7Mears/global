@@ -97,7 +97,7 @@ function global_scripts() {
 
 	wp_enqueue_script( 'global-javascript', get_template_directory_uri() . '/js/script.min.js', array('jquery'), '20130115', true );
 
-	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Lato:400,700|Noto+Serif:400,700,400italic');
+	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Oswald:400,700|Roboto+Slab');
 	wp_enqueue_style( 'googleFonts');
 	wp_enqueue_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css', array(), '4.0.3' );
 
