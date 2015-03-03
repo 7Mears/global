@@ -4,6 +4,7 @@
   a {
     color: $c_headers;
     font-family: $font__alt;
+    @include font-size(1.4);
 
     &:hover {
       color: $color3;

@@ -15,7 +15,7 @@ $color4-d: darken($color4, 10%);
 $color4-l: lighten($color4, 10%);
 
 $color5: #455A64;
-$color5-d: darken($color5, 20%);
+$color5-d: darken($color5, 10%);
 $color5-l: lighten($color5, 10%);
 
 $color6: #2196F3;
@@ -46,13 +46,13 @@ $c_field-border-hover: $color3;
 $c_alt-bg: $color5-d;
 
 /* Buttons */
-$c_button: $color6;
+$c_button: $color5;
 $c_button-text: $color2;
-$c_button-border: $color6-d;
+$c_button-border: $color5-d;
 
-$c_button-hover: $color6-d;
+$c_button-hover: $color5-d;
 $c_button-text-hover: $color1;
-$c_button-border-hover: $color6-l;
+$c_button-border-hover: $color5-l;
 
 $c_button-alt: $color2;
 $c_button-alt-text: $color5;
