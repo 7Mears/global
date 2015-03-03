@@ -24,25 +24,27 @@ get_header(); ?>
 <section class="home-middle">
   <div class="wrapper">
 
-  <div class="card">
-    <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
-    <h3>Commercial</h3>
-  </div>
+    <div class="card">
+      <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
+      <h3>Commercial</h3>
+    </div>
 
-  <div class="card">
-    <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
-    <h3>Residential</h3>
-  </div>
+    <div class="card">
+      <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
+      <h3>Residential</h3>
+    </div>
 
-  <div class="card">
-    <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
-    <h3>Restoration</h3>
-  </div>
+    <div class="card">
+      <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
+      <h3>Restoration</h3>
+    </div>
 
-  <div class="card">
-    <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
-    <h3>Commercial</h3>
-  </div>
+    <div class="card">
+      <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house.jpg">
+      <h3>Commercial</h3>
+    </div>
+
+    <a class="button" href="#0">Find out more</a>
 
   </div>
 </section>

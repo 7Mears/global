@@ -274,9 +274,9 @@ table {
 4.0 Forms
 --------------------------------------------------------------*/
 button, input[type="button"], input[type="reset"], input[type="submit"] {
-  border: 2px solid #8b1515;
-  color: #FFF;
-  background: #B71C1C;
+  border: 2px solid #0c7cd5;
+  color: #212121;
+  background: #2196F3;
   border-radius: 3px;
   line-height: 1;
   padding: 15px 25px;
@@ -285,11 +285,11 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
   color: #FFF;
-  background: #8b1515;
-  border-color: #de2828; }
+  background: #0c7cd5;
+  border-color: #51adf6; }
 
 button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
-  border-color: #de2828; }
+  border-color: #51adf6; }
 
 .button, .button:visited, .button-alt, .button-alt:visited {
   border-radius: 3px;
@@ -300,13 +300,13 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   display: inline-block; }
 
 .button, .button:visited {
-  border: 2px solid #8b1515;
-  color: #FFF; }
+  border: 2px solid #0c7cd5;
+  color: #212121; }
 
 .button:hover, .button:active {
-  background: #8b1515;
+  background: #0c7cd5;
   color: #FFF;
-  border-color: #de2828; }
+  border-color: #51adf6; }
 
 .button-alt, .button-alt:visited {
   border: 2px solid #080808;
@@ -570,17 +570,26 @@ embed, iframe, object {
   font-size: 22.4px;
   font-size: 1.4rem; }
 
+.home-middle {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2em 0; }
+  .home-middle .button {
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 2em auto 0 auto; }
+
 .card {
-  width: 20%;
-  float: left;
+  width: 22%;
+  display: inline-block;
   text-align: center;
-  margin: 2.25%; }
+  margin: 1.25%; }
   .card h3 {
-    margin-top: -50px;
+    margin-top: -66px;
+    margin-bottom: 0;
     z-index: 2;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.4); }
+    background-color: rgba(255, 255, 255, 0.6); }
   .card img {
-    border-radius: 50%;
-    border: 5px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     z-index: 1; }
