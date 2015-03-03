@@ -30,8 +30,8 @@ $c_tetriary: $color5-l;
 
 $c_body-color: lighten($color2, 20%);
 $c_body-background: $color1;
-$c_link: $color6;
-$c_link-hover: $color3-l;
+$c_link: $color5-l;
+$c_link-hover: $color5-d;
 $c_headers: $color2-l;
 $c_hr: $color2;
 
@@ -41,7 +41,7 @@ $c_field-border: $color2;
 
 $c_field-hover: $color1;
 $c_field-text-hover: $color6;
-$c_field-border-hover: $color3;
+$c_field-border-hover: $color5;
 
 $c_alt-bg: $color5-d;
 

@@ -78,7 +78,7 @@ get_header(); ?>
 
 <section class="home-news clearfix">
   <div class="wrapper">
-    <h4>News</h4>
+    <h3>News and products</h3>
 
     <div class="home-news-section">
       <h5>This is a news post title</h5>

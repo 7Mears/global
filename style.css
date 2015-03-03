@@ -326,7 +326,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, textarea:focus {
   color: #2196F3;
-  border: 2px solid #B71C1C;
+  border: 2px solid #455A64;
   transition: 0.6s ease;
   background: #FFF; }
 
@@ -344,12 +344,12 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-  color: #2196F3;
+  color: #5a7582;
   transition: 0.4s ease; }
   a:visited {
-    color: #2196F3; }
+    color: #5a7582; }
   a:hover, a:focus, a:active {
-    color: #de2828; }
+    color: #303f46; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -558,7 +558,7 @@ embed, iframe, object {
     font-size: 22.4px;
     font-size: 1.4rem; }
     .main-navigation a:hover {
-      color: #B71C1C; }
+      color: #303f46; }
 
 .site-branding {
   float: left; }
@@ -702,11 +702,13 @@ embed, iframe, object {
     margin: 0; }
 
 .site-footer {
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1em 0; }
   .site-footer ul {
     list-style: none;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    float: left; }
   .site-footer li {
     display: inline-block;
     padding-right: 1em; }
@@ -717,4 +719,7 @@ embed, iframe, object {
       color: #3b3b3b;
       font-family: 'Oswald', sans-serif; }
       .site-footer li a:hover {
-        color: #B71C1C; }
+        color: #303f46; }
+
+.to-top {
+  float: right; }

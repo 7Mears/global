@@ -1,10 +1,12 @@
 .site-footer {
   background-color: rgba(0,0,0,0.1);
+  padding: 1em 0;
 
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    float: left;
   }
 
   li {
@@ -18,8 +20,12 @@
         font-family: $font__alt;
 
         &:hover {
-          color: $color3;
+          color: $c_link-hover;
         }
     }
   }
+}
+
+.to-top {
+  float: right;
 }

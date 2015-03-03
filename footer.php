@@ -12,9 +12,7 @@
 	<div class="wrapper">
 		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 
-		<div class="site-info">
-			<p>Global Exteriors</p>
-		</div><!-- .site-info -->
+		<a class="to-top" href="#0"><i class="fa fa-arrow-up"></i></a>
 
 	</div>
 </footer><!-- #colophon -->
