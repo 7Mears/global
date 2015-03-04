@@ -22,7 +22,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/logo.jpg">
+			<img class="logo" src="http://localhost/global-exteriors/wp-content/uploads/2015/03/global-logo.png">
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
