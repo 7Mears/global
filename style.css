@@ -164,7 +164,7 @@ td, th {
 2.0 Typography
 --------------------------------------------------------------*/
 body, button, input, select, textarea {
-  color: #e6e6e6;
+  color: #F5F5F5;
   font-family: 'Roboto Slab', serif;
   font-size: 17.6px;
   font-size: 1.1rem;
@@ -172,7 +172,7 @@ body, button, input, select, textarea {
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  color: #FFF;
+  color: #F5F5F5;
   font-family: 'Oswald', sans-serif;
   line-height: 1.6;
   font-weight: 700;
@@ -226,7 +226,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #292929;
+  background: #212121;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote:before, blockquote:after, q:before, q:after {
@@ -275,7 +275,7 @@ table {
 --------------------------------------------------------------*/
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   border: 2px solid #5c5c5c;
-  color: #FFF;
+  color: #F5F5F5;
   background: #424242;
   border-radius: 3px;
   line-height: 1;
@@ -284,7 +284,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   transition: 0.6s ease; }
 
 button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
-  color: #FFF;
+  color: #F5F5F5;
   background: #424242;
   border-color: #5c5c5c; }
 
@@ -301,11 +301,11 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 .button, .button:visited {
   border: 2px solid #5c5c5c;
-  color: #FFF; }
+  color: #F5F5F5; }
 
 .button:hover, .button:active {
   background: #424242;
-  color: #FFF;
+  color: #F5F5F5;
   border-color: #5c5c5c; }
 
 .button-alt, .button-alt:visited {
@@ -318,17 +318,17 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   border-color: #3b3b3b; }
 
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
-  color: #FFEB3B;
+  color: #F5F5F5;
   border: 2px solid #212121;
   background: #3b3b3b;
   border-radius: 3px;
   width: 100%; }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, textarea:focus {
-  color: #2196F3;
+  color: #0277BD;
   border: 2px solid #5c5c5c;
   transition: 0.6s ease;
-  background: #FFF; }
+  background: #F5F5F5; }
 
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"] {
   padding: 5px; }
@@ -344,12 +344,12 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-  color: #5c5c5c;
+  color: #FFEB3B;
   transition: 0.4s ease; }
   a:visited {
-    color: #5c5c5c; }
+    color: #FFEB3B; }
   a:hover, a:focus, a:active {
-    color: #292929; }
+    color: #0277BD; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -420,11 +420,11 @@ a {
   width: 1px;
   overflow: hidden; }
   .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
-    background-color: #292929;
+    background-color: #212121;
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
     clip: auto !important;
-    color: #e6e6e6;
+    color: #F5F5F5;
     display: block;
     font-size: 14px;
     font-size: 0.875rem;
@@ -553,12 +553,12 @@ embed, iframe, object {
 .main-navigation {
   margin-top: 2.2em; }
   .main-navigation a {
-    color: #FFF;
+    color: #F5F5F5;
     font-family: 'Oswald', sans-serif;
     font-size: 22.4px;
     font-size: 1.4rem; }
     .main-navigation a:hover {
-      color: #292929; }
+      color: #0277BD; }
 
 .site-branding {
   float: left; }
@@ -595,7 +595,7 @@ embed, iframe, object {
   font-size: 1.4rem; }
 
 .home-services {
-  background-color: #424242;
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 2em 0; }
 
 .figure, .figure * {
@@ -613,7 +613,7 @@ embed, iframe, object {
     float: left;
     max-width: 292.5px;
     width: 25%;
-    color: #212121;
+    color: #F5F5F5;
     text-decoration: none; }
     .grid a .figcaption {
       top: 0;
@@ -623,11 +623,11 @@ embed, iframe, object {
       height: 50px;
       text-align: center;
       position: absolute;
-      background: #FFF; }
+      background: #212121; }
       .grid a .figcaption p {
         position: absolute;
         padding: 0 20px;
-        color: #545454;
+        color: darkgray;
         opacity: 0;
         -webkit-transition: 0.1s linear;
         transition: 0.1s linear; }
@@ -635,19 +635,19 @@ embed, iframe, object {
         margin: 0 0 10px 0;
         text-transform: uppercase;
         font-size: 130%;
-        color: #5c5c5c; }
+        color: #F5F5F5; }
     .grid a .figure {
       position: relative;
       overflow: hidden;
       margin: 5px;
-      background: #FFF; }
+      background: #212121; }
       .grid a .figure .figbutton {
-        background: #5c5c5c;
+        background: #212121;
         letter-spacing: 1px;
         text-align: center;
         position: absolute;
         padding: 8px 20px;
-        color: #FFF;
+        color: #0277BD;
         border: none;
         bottom: 0px;
         right: 0px;
@@ -709,8 +709,8 @@ embed, iframe, object {
     margin: 0; }
 
 .site-footer {
-  background-color: #424242;
-  color: #e6e6e6;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: gainsboro;
   padding: 2em 0; }
   .site-footer ul {
     list-style: none;
@@ -721,10 +721,10 @@ embed, iframe, object {
     padding-right: 1em; }
     .site-footer li a {
       text-decoration: none;
-      color: #e6e6e6;
+      color: gainsboro;
       font-family: 'Oswald', sans-serif; }
       .site-footer li a:hover {
-        color: #292929; }
+        color: #0277BD; }
 
 .footer-widget {
   width: 33.3333%;

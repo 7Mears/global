@@ -23,7 +23,7 @@
     float: left;
     max-width: 292.5px;
     width: 25%;
-    color: $c_secondary;
+    color: $c_primary;
     text-decoration: none;
 
     .figcaption {
@@ -34,12 +34,12 @@
       height: 50px;
       text-align: center;
       position: absolute;
-      background: $c_primary;
+      background: $c_secondary;
 
       p {
         position: absolute;
         padding: 0 20px;
-        color: lighten($c_secondary, 20%);
+        color: darken($c_primary, 30%);
         opacity: 0;
 
         -webkit-transition:  0.1s linear;
@@ -50,7 +50,7 @@
         margin: 0 0 10px 0;
         text-transform: uppercase;
         font-size: 130%;
-        color: $c_tetriary;
+        color: $c_primary;
       }
     }
 
@@ -58,15 +58,15 @@
       position: relative;
       overflow: hidden;
       margin: 5px;
-      background: $c_primary;
+      background: $c_secondary;
 
       .figbutton {
-        background: $c_tetriary;
+        background: $c_secondary;
         letter-spacing: 1px;
         text-align: center;
         position: absolute;
         padding: 8px 20px;
-        color: $c_primary;
+        color: $c_tetriary;
         border: none;
         bottom: 0px;
         right: 0px;

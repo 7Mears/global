@@ -1,4 +1,4 @@
-$color1: #FFF;
+$color1: #F5F5F5;
 $color1-d: darken($color1, 10%);
 $color1-l: lighten($color1, 10%);
 
@@ -6,7 +6,7 @@ $color2: #212121;
 $color2-d: darken($color2, 10%);
 $color2-l: lighten($color2, 10%);
 
-$color3: #B71C1C;
+$color3: #0277BD;
 $color3-d: darken($color3, 10%);
 $color3-l: lighten($color3, 10%);
 
@@ -18,33 +18,43 @@ $color5: #424242;
 $color5-d: darken($color5, 10%);
 $color5-l: lighten($color5, 10%);
 
-$color6: #2196F3;
-$color6-d: darken($color6, 10%);
-$color6-l: lighten($color6, 10%);
+
+
 
 $c_primary: $color1;
 $c_secondary: $color2;
-$c_tetriary: $color5-l;
+$c_tetriary: $color3;
+
+
+$c_body-color: $color1;
+$c_body-background: $color2;
+
+$c_alt-text: $color1-d;
+$c_alt-bg: rgba(255,255,255,0.1);
 
 
 
-$c_body-color: $color1-d;
-$c_body-background: $color5-d;
-$c_link: $color5-l;
-$c_link-hover: $color5-d;
+
+
+
+
+
+
+
+
+
+$c_link: $color4;
+$c_link-hover: $color3;
 $c_headers: $color1;
 $c_hr: $color2;
 
 $c_field: $color2-l;
-$c_field-text: $color4;
+$c_field-text: $color1;
 $c_field-border: $color2;
 
 $c_field-hover: $color1;
-$c_field-text-hover: $color6;
+$c_field-text-hover: $color3;
 $c_field-border-hover: $color5-l;
-
-$c_alt-bg: $color5;
-$c_alt-text: $color1-d;
 
 /* Buttons */
 $c_button: $color5;
