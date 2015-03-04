@@ -76,7 +76,7 @@ get_header(); ?>
 </section>
 
 
-<section class="home-news clearfix">
+<section class="home-estimate clearfix">
   <div class="wrapper">
     <h3>Get an estimate</h3>
     <p>Compellingly iterate intermandated ROI with cross-platform resources. Completely maintain client-focused products for client-centered experiences. Conveniently synergize market-driven "outside the box" thinking.</p>

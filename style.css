@@ -695,10 +695,10 @@ embed, iframe, object {
   .grid a:nth-child(even) {
     margin: 0; } }
 
-.home-news {
+.home-estimate {
   padding-bottom: 2em;
   text-align: center; }
-  .home-news h3 {
+  .home-estimate h3 {
     margin-bottom: 0;
     text-transform: uppercase; }
 
@@ -731,3 +731,7 @@ embed, iframe, object {
     font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase; }
+
+.footer-links a {
+  font-family: 'Roboto Slab', serif !important;
+  line-height: 1.8; }

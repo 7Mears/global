@@ -39,4 +39,10 @@
     font-weight: 700;
     text-transform: uppercase;
   }
+
 }
+
+  .footer-links a {
+    font-family: $font__main !important;
+    line-height: $font__line-height-body;
+  }

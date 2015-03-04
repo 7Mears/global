@@ -12,7 +12,7 @@
 	<div class="wrapper">
 
 		<div class="footer-widget">
-			<ul>
+			<ul class="footer-links">
 				<li class="list-title">Global Exteriors</li>
 				<li>#4-833 Cynthia St</li>
 				<li>Saskatoon SK</li>
@@ -21,11 +21,11 @@
 		</div>
 
 		<div class="footer-widget">
-			<ul>
+			<ul class="footer-links">
 				<li class="list-title">Contact us</li>
-				<li><i class="fa fa-phone"></i>(306)978-6605</li>
-				<li><i class="fa fa-print"></i>(306)978-6606</li>
-				<li><i class="fa fa-envelope"></i>brian@globalexteriors.com</li>
+				<li><a href="#0"><i class="fa fa-phone"></i>(306)978-6605</a></li>
+				<li><a href="#0"><i class="fa fa-print"></i>(306)978-6606</a></li>
+				<li><a href="#0"><i class="fa fa-envelope"></i>brian@globalexteriors.com</a></li>
 			</ul>
 		</div>
 
