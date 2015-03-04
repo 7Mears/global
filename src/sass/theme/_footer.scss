@@ -37,5 +37,6 @@
     font-family: $font__alt;
     @include font-size(1.4);
     font-weight: 700;
+    text-transform: uppercase;
   }
 }

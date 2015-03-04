@@ -78,21 +78,9 @@ get_header(); ?>
 
 <section class="home-news clearfix">
   <div class="wrapper">
-    <h3>News and products</h3>
-
-    <div class="home-news-section">
-      <h5>Are you ready to DIY?</h5>
-      <p>Installing siding yourself can save you money, but before you embark on a project check your skill level: Do you feel confident? Have you done projects like this before?</p>
-
-      <a class="button" href="#0"><i class="fa fa-arrow-right"></i></a>
-    </div>
-
-    <div class="home-news-section">
-      <h5>Trim Essentials by Gentek</h5>
-      <p>Extra detail at the rooflines, added dimension around the windows, a beautifully appointed entryway and handsomely crafted corners. It's the little things that give a home personality and style.</p>
-
-      <a class="button" href="#0"><i class="fa fa-arrow-right"></i></a>
-    </div>
+    <h3>Get an estimate</h3>
+    <p>Compellingly iterate intermandated ROI with cross-platform resources. Completely maintain client-focused products for client-centered experiences. Conveniently synergize market-driven "outside the box" thinking.</p>
+    <a class="button" href="#0">Click here</a>
 
   </div>
 </section>
