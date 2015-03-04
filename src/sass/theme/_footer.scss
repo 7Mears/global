@@ -1,6 +1,7 @@
 .site-footer {
-  background-color: rgba(0,0,0,0.1);
-  padding: 1em 0;
+  background-color: $c_alt-bg;
+  color: $c_alt_text;
+  padding: 2em 0;
 
   ul {
     list-style: none;
@@ -10,13 +11,11 @@
   }
 
   li {
-    display: inline-block;
     padding-right: 1em;
 
       a {
         text-decoration: none;
-        @include font-size(1.4);
-        color: $c_headers;
+        color: $c_alt-text;
         font-family: $font__alt;
 
         &:hover {
@@ -26,6 +25,17 @@
   }
 }
 
-.to-top {
-  float: right;
+.footer-widget {
+  width: 33.3333%;
+  float: left;
+
+  .fa {
+    margin-right: 15px;
+  }
+
+  .list-title {
+    font-family: $font__alt;
+    @include font-size(1.4);
+    font-weight: 700;
+  }
 }

@@ -10,9 +10,28 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="wrapper">
-		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 
-		<a class="to-top" href="#0"><i class="fa fa-arrow-up"></i></a>
+		<div class="footer-widget">
+			<ul>
+				<li class="list-title">Global Exteriors</li>
+				<li>#4-833 Cynthia St</li>
+				<li>Saskatoon SK</li>
+				<li>S7L 6C2</li>
+			</ul>
+		</div>
+
+		<div class="footer-widget">
+			<ul>
+				<li class="list-title">Contact us</li>
+				<li><i class="fa fa-phone"></i>(306)978-6605</li>
+				<li><i class="fa fa-print"></i>(306)978-6606</li>
+				<li><i class="fa fa-envelope"></i>brian@globalexteriors.com</li>
+			</ul>
+		</div>
+
+		<div class="footer-widget">
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		</div>
 
 	</div>
 </footer><!-- #colophon -->

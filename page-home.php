@@ -17,7 +17,7 @@ get_header(); ?>
 
 <section class="home-about">
   <div class="wrapper">
-    <p>From cutting-edge healthcare facilities to complex transit tunnels, we are proud to deliver projects that shape our communities and strengthen our nation's infrastructure.</p>
+    <p>From siding and soffit, to windows and doors, to eavestroughs and insulation, Global Exteriors has been specializing in residential exteriors for over 20 years.</p>
   </div>
 </section>
 
@@ -53,7 +53,7 @@ get_header(); ?>
           <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/house2.jpg" />
           <div class="figcaption">
             <h2>New Homes</h2>
-            <p>Beetroot water spinach okra.</p>
+            <p>We work with the city's top builders.</p>
           </div>
           <div class="figbutton"><i class="fa fa-arrow-right"></i></div>
         </div>
@@ -81,15 +81,15 @@ get_header(); ?>
     <h3>News and products</h3>
 
     <div class="home-news-section">
-      <h5>This is a news post title</h5>
-      <p>Progressively repurpose orthogonal supply chains rather than end-to-end customer service. Completely benchmark multimedia based web-readiness and e-business e-commerce.</p>
+      <h5>Are you ready to DIY?</h5>
+      <p>Installing siding yourself can save you money, but before you embark on a project check your skill level: Do you feel confident? Have you done projects like this before?</p>
 
       <a class="button" href="#0"><i class="fa fa-arrow-right"></i></a>
     </div>
 
     <div class="home-news-section">
-      <h5>This is a news post title</h5>
-      <p>Progressively repurpose orthogonal supply chains rather than end-to-end customer service. Completely benchmark multimedia based web-readiness.</p>
+      <h5>Trim Essentials by Gentek</h5>
+      <p>Extra detail at the rooflines, added dimension around the windows, a beautifully appointed entryway and handsomely crafted corners. It's the little things that give a home personality and style.</p>
 
       <a class="button" href="#0"><i class="fa fa-arrow-right"></i></a>
     </div>
