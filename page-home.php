@@ -61,7 +61,7 @@ get_header(); ?>
 
       <a href="#">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-newhomes.jpg" />
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/blueprint2.jpg" />
           <div class="figcaption">
             <h2>Do-It-Yourself</h2>
             <p>Water spinach arugula pea tatsoi.</p>
