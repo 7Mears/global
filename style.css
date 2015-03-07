@@ -366,9 +366,10 @@ a {
     padding-left: 0; }
     .main-navigation ul ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+      background-color: #212121;
       float: left;
       position: absolute;
-      top: 1.5em;
+      top: 3em;
       left: -999em;
       z-index: 99999; }
       .main-navigation ul ul ul {
@@ -392,11 +393,19 @@ a {
 .menu-toggle {
   display: none; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .menu-toggle, .main-navigation.toggled .nav-menu {
     display: block; }
+  .menu-toggle {
+    margin: 1em auto; }
+  .main-navigation li {
+    display: block;
+    float: none; }
   .main-navigation ul {
-    display: none; } }
+    display: none; }
+  .main-navigation {
+    width: 100%;
+    text-align: center; } }
 
 .site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation {
   margin: 0 0 1.5em;
@@ -562,6 +571,25 @@ embed, iframe, object {
 
 .site-branding {
   float: left; }
+  @media screen and (max-width: 768px) {
+    .site-branding {
+      width: 100%; } }
+
+.logo {
+  height: 185px;
+  width: auto;
+  padding: 5px;
+  margin-bottom: -50px;
+  z-index: 10;
+  position: relative;
+  background: #212121;
+  padding: 25px 15px 25px 11px;
+  border-radius: 50%; }
+  @media screen and (max-width: 768px) {
+    .logo {
+      display: block;
+      margin: 0 auto;
+      padding: 15px; } }
 
 .wrapper, .site-header {
   width: 1170px;
@@ -586,17 +614,6 @@ embed, iframe, object {
   zoom: 1; }
 
 /* IE7 */
-.logo {
-  height: 185px;
-  width: auto;
-  padding: 5px;
-  margin-bottom: -50px;
-  z-index: 10;
-  position: relative;
-  background: #212121;
-  padding: 25px 15px 25px 11px;
-  border-radius: 50%; }
-
 .home-about {
   padding: 1em 0;
   text-align: center;

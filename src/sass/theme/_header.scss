@@ -14,4 +14,26 @@
 
 .site-branding {
   float: left;
+
+  @media screen and (max-width: $M) {
+    width: 100%;
+  }
+}
+
+.logo {
+  height: 185px;
+  width: auto;
+  padding: 5px;
+  margin-bottom: -50px;
+  z-index: 10;
+  position: relative;
+  background: $c_body-background;
+  padding: 25px 15px 25px 11px;
+  border-radius: 50%;
+
+  @media screen and (max-width: $M) {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+  }
 }
