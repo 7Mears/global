@@ -566,6 +566,9 @@ embed, iframe, object {
 .wrapper, .site-header {
   width: 1170px;
   margin: 0 auto; }
+  @media screen and (max-width: 1170px) {
+    .wrapper, .site-header {
+      width: 100%; } }
 
 .clearfix:after {
   visibility: hidden;

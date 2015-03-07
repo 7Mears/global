@@ -2,6 +2,10 @@
 .site-header {
   width: $L;
   margin: 0 auto;
+
+  @media screen and (max-width: $L) {
+    width: 100%;
+  }
 }
 
 .clearfix:after {
@@ -11,7 +15,7 @@
   content: " ";
   clear: both;
   height: 0;
-  }
+}
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
