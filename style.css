@@ -746,6 +746,8 @@ embed, iframe, object {
       font-family: 'Oswald', sans-serif; }
       .site-footer li a:hover {
         color: #0277BD; }
+  .site-footer .sub-menu {
+    display: none; }
 
 .footer-widget {
   width: 33.3333%;
