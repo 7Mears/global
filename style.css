@@ -584,9 +584,15 @@ embed, iframe, object {
 
 /* IE7 */
 .logo {
-  height: 150px;
+  height: 185px;
   width: auto;
-  padding: 5px; }
+  padding: 5px;
+  margin-bottom: -50px;
+  z-index: 10;
+  position: relative;
+  background: #212121;
+  padding: 25px 15px 25px 11px;
+  border-radius: 50%; }
 
 .home-about {
   padding: 1em 0;
