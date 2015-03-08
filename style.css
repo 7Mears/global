@@ -576,14 +576,14 @@ embed, iframe, object {
       width: 100%; } }
 
 .logo {
-  height: 185px;
+  height: 195px;
   width: auto;
   padding: 5px;
-  margin-bottom: -50px;
+  margin-bottom: -75px;
   z-index: 10;
   position: relative;
   background: #212121;
-  padding: 25px 15px 25px 11px;
+  padding: 20px 10px 30px 5px;
   border-radius: 50%; }
   @media screen and (max-width: 768px) {
     .logo {
@@ -597,6 +597,9 @@ embed, iframe, object {
   @media screen and (max-width: 1170px) {
     .wrapper, .site-header {
       width: 100%; } }
+
+.site-main {
+  padding-top: 50px; }
 
 .clearfix:after {
   visibility: hidden;
@@ -764,3 +767,9 @@ embed, iframe, object {
 .footer-links a {
   font-family: 'Roboto Slab', serif !important;
   line-height: 1.8; }
+
+.site-main {
+  padding-top: 50px; }
+
+.entry-title, .page--title {
+  text-align: center; }
