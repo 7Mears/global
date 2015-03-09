@@ -36,17 +36,16 @@
   .fa {
     margin-right: 15px;
   }
-
-  .list-title {
-    font-family: $font__alt;
-    @include font-size(1.4);
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
 }
 
-  .footer-links a {
-    font-family: $font__main !important;
-    line-height: $font__line-height-body;
-  }
+.list-title {
+  font-family: $font__alt;
+  @include font-size(1.4);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-links a {
+  font-family: $font__main !important;
+  line-height: $font__line-height-body;
+}

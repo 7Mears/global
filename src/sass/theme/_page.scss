@@ -1,8 +1,38 @@
-.site-main {
-  padding-top: 50px;
+.page--title {
+  padding: 1em;
+  text-align: center;
 }
 
-.entry-title,
-.page--title {
+.entry-title {
   text-align: center;
+}
+
+
+.page--title {
+  background-color: $c_alt-bg;
+}
+
+//Full Page
+
+// Contact Page
+.page-main {
+  width: 60%;
+  float: left;
+}
+
+.page-side {
+  width: 35%;
+  float: right;
+
+  ul {
+    list-style: none;
+  }
+
+  .fa {
+    margin-right: 15px;
+  }
+
+  .list-title {
+    padding-top: 1em;
+  }
 }

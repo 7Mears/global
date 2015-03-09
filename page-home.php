@@ -25,7 +25,7 @@ get_header(); ?>
   <div id="grid" class="grid">
     <div class="wrapper">
 
-      <a href="#" class="b">
+      <a href="#">
         <div class="figure">
           <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-condos.jpg" />
 
@@ -39,7 +39,7 @@ get_header(); ?>
 
       <a href="#">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-renovations.jpg" />
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/rennovations.jpg" />
           <div class="figcaption">
             <h2>Renovations</h2>
             <p>Two greens tigernut soybean radish.</p>
@@ -50,7 +50,7 @@ get_header(); ?>
 
       <a href="#">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-newhomes.jpg" />
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/newhomes.jpg" />
           <div class="figcaption">
             <h2>New Homes</h2>
             <p>We work with the city's top builders.</p>
@@ -61,7 +61,7 @@ get_header(); ?>
 
       <a href="#">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/blueprint2.jpg" />
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/diy.jpg" />
           <div class="figcaption">
             <h2>Do-It-Yourself</h2>
             <p>Water spinach arugula pea tatsoi.</p>

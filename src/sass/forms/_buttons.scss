@@ -2,6 +2,8 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+	font-family: $font__alt;
+	text-transform: uppercase;
 	border: 2px solid $c_button-border;
 	color: $c_button-text;
 	background: $c_button;
@@ -37,6 +39,8 @@ input[type="submit"]:active {
 .button:visited,
 .button-alt,
 .button-alt:visited {
+	font-family: $font__alt;
+	text-transform: uppercase;
 	border-radius: $radius;
 	line-height: 1;
 	padding: 10px 25px;
