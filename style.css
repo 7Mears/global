@@ -168,7 +168,8 @@ body, button, input, select, textarea {
   font-family: 'Roboto Slab', serif;
   font-size: 17.6px;
   font-size: 1.1rem;
-  line-height: 1.8; }
+  line-height: 1.8;
+  font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
@@ -226,7 +227,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #212121;
+  background: #080808;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote:before, blockquote:after, q:before, q:after {
@@ -370,7 +371,7 @@ a {
     padding-left: 0; }
     .main-navigation ul ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      background-color: #212121;
+      background-color: #080808;
       float: left;
       position: absolute;
       top: 3em;
@@ -433,7 +434,7 @@ a {
   width: 1px;
   overflow: hidden; }
   .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
-    background-color: #212121;
+    background-color: #080808;
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
     clip: auto !important;
@@ -586,7 +587,7 @@ embed, iframe, object {
   margin-bottom: -75px;
   z-index: 10;
   position: relative;
-  background: #212121;
+  background: #080808;
   padding: 20px 10px 30px 5px;
   border-radius: 50%; }
   @media screen and (max-width: 768px) {
@@ -604,6 +605,9 @@ embed, iframe, object {
 
 .site-main {
   padding-top: 50px; }
+
+.wp-caption-text {
+  background-color: #212121; }
 
 .clearfix:after {
   visibility: hidden;
@@ -628,7 +632,7 @@ embed, iframe, object {
   font-size: 1.4rem; }
 
 .home-services {
-  background-color: #363636;
+  background-color: #212121;
   padding: 2em 0; }
 
 .figure, .figure * {
@@ -656,7 +660,7 @@ embed, iframe, object {
       height: 50px;
       text-align: center;
       position: absolute;
-      background: #212121; }
+      background: #080808; }
       .grid a .figcaption p {
         position: absolute;
         padding: 0 20px;
@@ -673,9 +677,9 @@ embed, iframe, object {
       position: relative;
       overflow: hidden;
       margin: 5px;
-      background: #212121; }
+      background: #080808; }
       .grid a .figure .figbutton {
-        background: #212121;
+        background: #080808;
         letter-spacing: 1px;
         text-align: center;
         position: absolute;
@@ -737,7 +741,7 @@ embed, iframe, object {
     text-transform: uppercase; }
 
 .site-footer {
-  background-color: #363636;
+  background-color: #212121;
   color: gainsboro;
   padding: 2em 0; }
   .site-footer ul {
@@ -774,14 +778,13 @@ embed, iframe, object {
   line-height: 1.8; }
 
 .page--title {
-  padding: 1em;
-  text-align: center; }
+  padding-top: 50px; }
 
 .entry-title {
   text-align: center; }
 
 .page--title {
-  background-color: #363636; }
+  background-color: #212121; }
 
 .page-main {
   width: 60%;
@@ -816,7 +819,7 @@ embed, iframe, object {
       height: 50px;
       text-align: center;
       position: absolute;
-      background: #363636; }
+      background: #212121; }
       .gallery-grid a .figcaption p {
         position: absolute;
         padding: 0 20px;
@@ -833,9 +836,9 @@ embed, iframe, object {
       position: relative;
       overflow: hidden;
       margin: 5px;
-      background: #363636; }
+      background: #212121; }
       .gallery-grid a .figure .figbutton {
-        background: #363636;
+        background: #212121;
         letter-spacing: 1px;
         text-align: center;
         position: absolute;

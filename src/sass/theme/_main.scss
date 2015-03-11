@@ -12,6 +12,10 @@
   padding-top: 50px;
 }
 
+.wp-caption-text {
+  background-color: $c_alt-bg;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;

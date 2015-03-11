@@ -31,7 +31,7 @@ get_header(); ?>
 
           <div class="figcaption">
             <h2>Condominiums</h2>
-            <p>Soko radicchio bunya nuts gram dulse.</p>
+            <p>We are experts at exteriors of every size.</p>
           </div>
           <div class="figbutton"><i class="fa fa-arrow-right"></i></div>
         </div>
@@ -42,7 +42,7 @@ get_header(); ?>
           <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/rennovations.jpg" />
           <div class="figcaption">
             <h2>Renovations</h2>
-            <p>Two greens tigernut soybean radish.</p>
+            <p>Helping to make old homes look like new.</p>
           </div>
           <div class="figbutton"><i class="fa fa-arrow-right"></i></div>
         </div>
@@ -53,7 +53,7 @@ get_header(); ?>
           <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/newhomes.jpg" />
           <div class="figcaption">
             <h2>New Homes</h2>
-            <p>We work with the city's top builders.</p>
+            <p>We work with the city’s top home builders.</p>
           </div>
           <div class="figbutton"><i class="fa fa-arrow-right"></i></div>
         </div>
@@ -64,7 +64,7 @@ get_header(); ?>
           <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/diy.jpg" />
           <div class="figcaption">
             <h2>Do-It-Yourself</h2>
-            <p>Water spinach arugula pea tatsoi.</p>
+            <p>You can do it with our advice and support.</p>
           </div>
           <div class="figbutton"><i class="fa fa-arrow-right"></i></div>
         </div>
@@ -78,8 +78,8 @@ get_header(); ?>
 
 <section class="home-estimate clearfix">
   <div class="wrapper">
-    <h3>Get an estimate</h3>
-    <p>Compellingly iterate intermandated ROI with cross-platform resources. Completely maintain client-focused products for client-centered experiences. Conveniently synergize market-driven "outside the box" thinking.</p>
+    <h3>GET A FREE SIDING ESTIMATE</h3>
+    <p>Global Exteriors is a full-service shop. We have all the products you need to finish or renovate the siding on your house. Whether you’re doing it yourself, or hiring us to do it for you, the first step will be  to get an estimate.</p>
     <a class="button" href="#0">Click here</a>
 
   </div>

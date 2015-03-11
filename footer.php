@@ -26,6 +26,7 @@
 				<li><a href="#0"><i class="fa fa-phone"></i>(306)978-6605</a></li>
 				<li><a href="#0"><i class="fa fa-print"></i>(306)978-6606</a></li>
 				<li><a href="#0"><i class="fa fa-envelope"></i>brian@globalexteriors.com</a></li>
+				<li><a href="#0"><i class="fa fa-facebook"></i>Facebook</a></li>
 			</ul>
 		</div>
 
