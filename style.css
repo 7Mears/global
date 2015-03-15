@@ -625,9 +625,6 @@ embed, iframe, object {
   zoom: 1; }
 
 /* IE7 */
-.ls-l {
-  text-shadow: 1px 1px 10px black; }
-
 .home-about {
   padding: 1em 0;
   text-align: center;
@@ -802,6 +799,19 @@ embed, iframe, object {
     margin-right: 15px; }
   .page-side .list-title {
     padding-top: 1em; }
+
+.services-page h5 {
+  margin: 0; }
+
+.services-grid {
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+  min-height: 200px; }
+
+.products-grid {
+  width: 33.3333%;
+  float: left; }
 
 .gallery-grid {
   margin: 0 auto;
