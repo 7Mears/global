@@ -25,7 +25,7 @@ get_header(); ?>
   <div id="grid" class="grid">
     <div class="wrapper">
 
-      <a href="#">
+      <a href="condominiums/">
         <div class="figure">
           <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-condos.jpg" />
 
@@ -37,7 +37,7 @@ get_header(); ?>
         </div>
       </a>
 
-      <a href="#">
+      <a href="renovations/">
         <div class="figure">
           <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/rennovations.jpg" />
           <div class="figcaption">
@@ -48,7 +48,7 @@ get_header(); ?>
         </div>
       </a>
 
-      <a href="#">
+      <a href="new-homes/">
         <div class="figure">
           <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/newhomes.jpg" />
           <div class="figcaption">
@@ -59,7 +59,7 @@ get_header(); ?>
         </div>
       </a>
 
-      <a href="#">
+      <a href="diy/">
         <div class="figure">
           <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/diy.jpg" />
           <div class="figcaption">
@@ -80,7 +80,7 @@ get_header(); ?>
   <div class="wrapper">
     <h3>GET A FREE SIDING ESTIMATE</h3>
     <p>Global Exteriors is a full-service shop. We have all the products you need to finish or renovate the siding on your house. Whether you’re doing it yourself, or hiring us to do it for you, the first step will be  to get an estimate.</p>
-    <a class="button" href="#0">Click here</a>
+    <a class="button" href="estimate/">Click here</a>
 
   </div>
 </section>

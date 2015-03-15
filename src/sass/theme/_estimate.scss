@@ -1,0 +1,28 @@
+.estimate-form {
+  h4 {
+    margin: 0;
+  }
+}
+
+.estimate-section,
+.estimate-siding,
+.estimate-sofit {
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+
+}
+
+.estimate-siding,
+.estimate-sofit {
+    input {
+      width: 50px;
+      margin-bottom: 5px;
+    }
+}
+
+.estimate-section {
+  textarea {
+    height: 250px;
+  }
+}

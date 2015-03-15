@@ -3,6 +3,7 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"],
+input[type="tel"],
 textarea {
 	color: $c_field-text;
 	border: 2px solid $c_field-border;
@@ -16,6 +17,7 @@ input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
+input[type="tel"]:focus,
 textarea:focus {
 	color: $c_field-text-hover;
 	border: 2px solid $c_field-border-hover;
