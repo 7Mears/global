@@ -74,3 +74,22 @@ input[type="submit"]:active {
 	color: $c_button-alt-text-hover;
 	border-color: $c_button-alt-border-hover;
 }
+
+
+.hero-button {
+	font-family: $font__alt;
+	text-transform: uppercase;
+	border: 2px solid $c_button-border;
+	text-shadow: 1px 1px 1px #000;
+	color: $c_button-text;
+	background: $color5-d;
+	border-radius: $radius;
+	line-height: 1;
+	padding: 15px 25px;
+}
+
+.hero-button:hover {
+	color: $c_button-text-hover;
+	background: $c_button-hover;
+	border-color: $c_button-border-hover;
+}
