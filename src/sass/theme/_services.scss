@@ -1,0 +1,29 @@
+// page
+.services-page {
+  h5 {
+    margin: 0;
+  }
+}
+
+// services section
+.services-grid {
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+  overflow: hidden;
+}
+
+.services-grid--content {
+  height: 200px;
+}
+
+
+//Products section
+.products-grid {
+  width: 33.3333%;
+  float: left;
+
+  img {
+    height: 50px;
+  }
+}
