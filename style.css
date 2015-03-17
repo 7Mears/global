@@ -618,6 +618,9 @@ embed, iframe, object {
   @media screen and (max-width: 1170px) {
     .wrapper, .site-header {
       width: 100%; } }
+  @media screen and (max-width: 480px) {
+    .wrapper, .site-header {
+      margin: 0 10%; } }
 
 .site-main {
   padding-top: 50px; }
@@ -779,6 +782,13 @@ embed, iframe, object {
 .footer-widget {
   width: 33.3333%;
   float: left; }
+  @media screen and (max-width: 768px) {
+    .footer-widget {
+      width: 50%; } }
+  @media screen and (max-width: 480px) {
+    .footer-widget {
+      width: 100%;
+      margin: 1em 0; } }
   .footer-widget .fa {
     margin-right: 15px; }
 

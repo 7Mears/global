@@ -32,6 +32,13 @@
 .footer-widget {
   width: 33.3333%;
   float: left;
+  @media screen and (max-width: $M) {
+    width: 50%;
+  }
+  @media screen and (max-width: $S) {
+    width: 100%;
+    margin: 1em 0;
+  }
 
   .fa {
     margin-right: 15px;

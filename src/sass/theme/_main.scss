@@ -6,6 +6,9 @@
   @media screen and (max-width: $L) {
     width: 100%;
   }
+  @media screen and (max-width: $S) {
+    margin: 0 10%;
+  }
 }
 
 .site-main {
