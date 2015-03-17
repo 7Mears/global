@@ -8,3 +8,9 @@
     margin-top: 15px;
   }
 }
+
+@media screen and (max-width: $S) {
+  .page-side ul {
+    margin: 0;
+  }
+}

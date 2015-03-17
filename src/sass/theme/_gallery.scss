@@ -43,3 +43,11 @@
     display: block;
   }
 }
+
+
+@media screen and (max-width: $S) {
+  .gallery-figure {
+    width: 100%;
+    margin: 1em 0;
+  }
+}

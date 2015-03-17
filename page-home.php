@@ -27,7 +27,7 @@ get_header(); ?>
 
       <a href="condominiums/">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-condos.jpg" />
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-condos1.jpg" />
 
           <div class="figcaption">
             <h2>Condominiums</h2>
@@ -39,7 +39,7 @@ get_header(); ?>
 
       <a href="renovations/">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/rennovations.jpg" />
+          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-renovations1.jpg" />
           <div class="figcaption">
             <h2>Renovations</h2>
             <p>Helping to make old homes look like new.</p>

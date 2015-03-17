@@ -806,6 +806,10 @@ embed, iframe, object {
 
 .page--title {
   padding-top: 50px; }
+  @media screen and (max-width: 480px) {
+    .page--title {
+      padding: 0.5em 0;
+      text-align: center; } }
 
 .entry-title {
   text-align: center; }
@@ -827,9 +831,18 @@ embed, iframe, object {
   .page-side .list-title {
     padding-top: 1em; }
 
+@media screen and (max-width: 480px) {
+  .page-main, .page-side {
+    width: 100%; } }
+
 .wp-caption-text {
   background-color: #212121;
   padding: 0.5em; }
+
+@media screen and (max-width: 480px) {
+  .wp-caption {
+    margin: 0 auto;
+    width: 100%; } }
 
 .gallery-figure {
   width: 30.3333%;
@@ -863,6 +876,11 @@ embed, iframe, object {
 .gallery-album:hover .gallery-figure .fa {
   display: block; }
 
+@media screen and (max-width: 480px) {
+  .gallery-figure {
+    width: 100%;
+    margin: 1em 0; } }
+
 .estimate-form h4 {
   margin: 0; }
 
@@ -878,6 +896,11 @@ embed, iframe, object {
 .estimate-section textarea {
   height: 255px; }
 
+@media screen and (max-width: 480px) {
+  .estimate-section, .estimate-siding, .estimate-sofit {
+    width: 100%;
+    margin: 0; } }
+
 .contact-sidebar-estimate {
   background: #212121;
   text-align: center;
@@ -885,6 +908,10 @@ embed, iframe, object {
   margin: 50px 0; }
   .contact-sidebar-estimate .button {
     margin-top: 15px; }
+
+@media screen and (max-width: 480px) {
+  .page-side ul {
+    margin: 0; } }
 
 .services-page h5 {
   margin: 0; }
@@ -903,3 +930,7 @@ embed, iframe, object {
   float: left; }
   .products-grid img {
     height: 50px; }
+
+@media screen and (max-width: 480px) {
+  .services-grid, .products-grid {
+    width: 100%; } }
