@@ -820,9 +820,18 @@ embed, iframe, object {
   width: 30.3333%;
   float: left;
   position: relative;
-  margin-right: 3%; }
+  margin-right: 3%;
+  margin-top: 2em;
+  margin-bottom: 2em; }
   .gallery-figure img {
     width: 100%; }
+  .gallery-figure .fa {
+    color: #F5F5F5;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: none; }
 
 .gallery-figcaption {
   position: absolute;
@@ -833,6 +842,11 @@ embed, iframe, object {
   text-align: center; }
   .gallery-figcaption h3 {
     margin: 0; }
+
+.gallery-album:hover .gallery-figure img {
+  opacity: 0.5; }
+.gallery-album:hover .gallery-figure .fa {
+  display: block; }
 
 .estimate-form h4 {
   margin: 0; }

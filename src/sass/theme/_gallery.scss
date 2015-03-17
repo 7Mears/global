@@ -3,9 +3,20 @@
   float: left;
   position: relative;
   margin-right: 3%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 
   img {
     width: 100%;
+  }
+
+  .fa {
+    color: $c_primary;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: none;
   }
 }
 
@@ -21,4 +32,14 @@
     margin: 0;
   }
 
+}
+
+.gallery-album:hover .gallery-figure {
+  img {
+    opacity: 0.5;
+  }
+
+  .fa {
+    display: block;
+  }
 }
