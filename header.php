@@ -22,7 +22,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="logo" src="http://localhost/global-exteriors/wp-content/uploads/2015/03/global-logo.png"></a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/global-logo.png"></a>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

@@ -27,8 +27,7 @@ get_header(); ?>
 
       <a href="condominiums/">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-condos1.jpg" />
-
+          <img src="<?php bloginfo('template_directory'); ?>/images/home-condos.jpg" />
           <div class="figcaption">
             <h2>Condominiums</h2>
             <p>We are experts at exteriors of every size.</p>
@@ -39,7 +38,7 @@ get_header(); ?>
 
       <a href="renovations/">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/home-renovations1.jpg" />
+          <img src="<?php bloginfo('template_directory'); ?>/images/home-renovations.jpg" />
           <div class="figcaption">
             <h2>Renovations</h2>
             <p>Helping to make old homes look like new.</p>
@@ -50,7 +49,7 @@ get_header(); ?>
 
       <a href="new-homes/">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/newhomes.jpg" />
+          <img src="<?php bloginfo('template_directory'); ?>/images/home-newhomes.jpg" />
           <div class="figcaption">
             <h2>New Homes</h2>
             <p>We work with the city’s top home builders.</p>
@@ -61,7 +60,7 @@ get_header(); ?>
 
       <a href="diy/">
         <div class="figure">
-          <img src="http://localhost/global-exteriors/wp-content/uploads/2015/03/diy.jpg" />
+          <img src="<?php bloginfo('template_directory'); ?>/images/home-diy.jpg" />
           <div class="figcaption">
             <h2>Do-It-Yourself</h2>
             <p>You can do it with our advice and support.</p>
