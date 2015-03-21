@@ -87,6 +87,17 @@ function global_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
 
+	//Home Slider
+	register_sidebar( array(
+		'name'          => __( 'Home Slider', 'global' ),
+		'id'            => 'homeslider',
+		'description'   => 'This section is displayed at the very top of the home page.',
+		'before_widget' => '<div class="home-slider-widget">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1>',
+		'after_title'   => '</h1>',
+		) );
+
 	//Home Top
 	register_sidebar( array(
 		'name'          => __( 'Home Top', 'global' ),

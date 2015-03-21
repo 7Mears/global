@@ -11,8 +11,7 @@
  */
 
 get_header(); ?>
-
-<?php layerslider(1) ?>
+<?php dynamic_sidebar( 'homeslider' ); ?>
 
 <section class="home-about">
   <div class="wrapper">
