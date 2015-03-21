@@ -131,6 +131,17 @@ function global_widgets_init() {
 		'after_title'   => '</h3>',
 		) );
 
+	//Footer
+	register_sidebar( array(
+		'name'          => __( 'Footer', 'global' ),
+		'id'            => 'footer',
+		'description'   => 'This section is displayed after all content on every page.',
+		'before_widget' => '<div class="footer-widget">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1>',
+		'after_title'   => '</h1>',
+		) );
+
 }
 add_action( 'widgets_init', 'global_widgets_init' );
 
