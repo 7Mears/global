@@ -24,7 +24,7 @@
 
   a {
     float: left;
-    max-width: 292.5px;
+    /* max-width: 292.5px; */
     width: 25%;
     color: $c_primary;
     text-decoration: none;
@@ -117,18 +117,30 @@
 }
 
 
-/* Media Queries */
-/* Let's redefine the width of each anchor and the margins */
-
 @media screen and (max-width: $L) {
+  .grid a:nth-child(4) {
+    display: none;
+  }
+
   .grid a {
-    width: 50%;
+    width: 33.3333%;
+    height: auto;
+
+    .figure {
+      img {
+        height: auto;
+      }
+    }
   }
 }
 
 @media screen and (max-width: $M) {
   .grid a {
-    width: 50%;
+    width: 50%
+  }
+
+  .grid a:nth-child(4) {
+    display: inline;
   }
 }
 

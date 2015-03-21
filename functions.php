@@ -86,6 +86,40 @@ function global_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
+
+	//Home Top
+	register_sidebar( array(
+		'name'          => __( 'Home Top', 'global' ),
+		'id'            => 'hometop',
+		'description'   => 'This section is displayed at the top of the home page after the slider.',
+		'before_widget' => '<div class="home-top-widget">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1>',
+		'after_title'   => '</h1>',
+		) );
+
+	//Home Middle
+	register_sidebar( array(
+		'name'          => __( 'Home Middle', 'global' ),
+		'id'            => 'homemiddle',
+		'description'   => 'This section is displayed at the middle of the home page.',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '<h1>',
+		'after_title'   => '</h1>',
+		) );
+
+	//Home Bottom
+	register_sidebar( array(
+		'name'          => __( 'Home Bottom', 'global' ),
+		'id'            => 'homebottom',
+		'description'   => 'This section is displayed at the bottom of the home page.',
+		'before_widget' => '<div class="home-bottom-widget">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3>',
+		'after_title'   => '</h3>',
+		) );
+
 }
 add_action( 'widgets_init', 'global_widgets_init' );
 

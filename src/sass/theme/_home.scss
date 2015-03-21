@@ -1,9 +1,4 @@
+@import "home-hero";
 @import "home-about";
 @import "home-services";
 @import "home-estimate";
-
-@media screen and (max-width: $M) {
-  .ls-wp-fullwidth-container {
-    display: none;
-  }
-}

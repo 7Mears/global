@@ -1,0 +1,23 @@
+
+// Slider
+@media screen and (max-width: $L) {
+  .ls-nav-prev,
+  .ls-nav-next {
+    display: none !important;
+  }
+
+}
+
+@media screen and (max-width: $M) {
+
+  .ls-slide h1 {
+    font-size: 42px !important;
+  }
+
+}
+
+@media screen and (max-width: $S) {
+  .ls-wp-fullwidth-container {
+    display: none;
+  }
+}

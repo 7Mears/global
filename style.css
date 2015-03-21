@@ -617,7 +617,8 @@ embed, iframe, object {
   margin: 0 auto; }
   @media screen and (max-width: 1170px) {
     .wrapper, .site-header {
-      width: 100%; } }
+      width: 100%;
+      padding: 0 2em; } }
   @media screen and (max-width: 480px) {
     .wrapper, .site-header {
       padding: 0 1em; } }
@@ -641,6 +642,18 @@ embed, iframe, object {
   zoom: 1; }
 
 /* IE7 */
+@media screen and (max-width: 1170px) {
+  .ls-nav-prev, .ls-nav-next {
+    display: none !important; } }
+
+@media screen and (max-width: 768px) {
+  .ls-slide h1 {
+    font-size: 42px !important; } }
+
+@media screen and (max-width: 480px) {
+  .ls-wp-fullwidth-container {
+    display: none; } }
+
 .home-about {
   padding: 1em 0;
   text-align: center;
@@ -664,7 +677,7 @@ embed, iframe, object {
   padding: 0; }
   .grid a {
     float: left;
-    max-width: 292.5px;
+    /* max-width: 292.5px; */
     width: 25%;
     color: #F5F5F5;
     text-decoration: none; }
@@ -735,15 +748,20 @@ embed, iframe, object {
 .grid a:hover .figure .figbutton {
   opacity: 1; }
 
-/* Media Queries */
-/* Let's redefine the width of each anchor and the margins */
 @media screen and (max-width: 1170px) {
+  .grid a:nth-child(4) {
+    display: none; }
   .grid a {
-    width: 50%; } }
+    width: 33.3333%;
+    height: auto; }
+    .grid a .figure img {
+      height: auto; } }
 
 @media screen and (max-width: 768px) {
   .grid a {
-    width: 50%; } }
+    width: 50%; }
+  .grid a:nth-child(4) {
+    display: inline; } }
 
 @media screen and (max-width: 480px) {
   .grid a {
@@ -755,10 +773,6 @@ embed, iframe, object {
   .home-estimate h3 {
     margin-bottom: 0;
     text-transform: uppercase; }
-
-@media screen and (max-width: 768px) {
-  .ls-wp-fullwidth-container {
-    display: none; } }
 
 .site-footer {
   background-color: #212121;
