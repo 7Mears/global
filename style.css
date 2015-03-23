@@ -3,7 +3,7 @@ Theme Name: Global Exteriors
 Theme URI: http://jordanmears.com/
 Author: Jordan Mears
 Author URI: http://jordanmears.com/
-Description: Theme built for Global Exteriors
+Description: Theme built for Platinum Paint and Body
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -805,7 +805,7 @@ embed, iframe, object {
       width: 100%;
       margin: 1em 0; } }
   .footer-widget .fa {
-    margin-right: 15px; }
+    width: 35px; }
 
 .list-title {
   font-family: 'Oswald', sans-serif;
